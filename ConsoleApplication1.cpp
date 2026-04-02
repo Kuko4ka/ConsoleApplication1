@@ -23,7 +23,7 @@ public:
 			return true;
 		}
 	}
-
+	
 	Range(double l, double r) {
 		if (is_valid(l, r))
 		{

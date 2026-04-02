@@ -151,7 +151,7 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+ 
 
 	Range r(3, 4);
 
@@ -185,6 +185,6 @@ int main()
 
 	bool e = r.belongs_to_range(6);
 
-	std::cout << b << " " << c << " " << d << " " << e;
+	std::cout << b << " " << c << " " << d << " " << e << " " << v.length() << " " << r.are_ranges_equal(r);
 
 }

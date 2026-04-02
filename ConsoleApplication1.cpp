@@ -153,7 +153,7 @@ int main()
 {
  
 
-	Range r(3, 4);
+	Range r(3, 6);
 
 	r.print_range();
 

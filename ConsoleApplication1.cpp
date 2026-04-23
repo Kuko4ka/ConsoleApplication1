@@ -52,12 +52,12 @@ public:
 		}
 	}
 
-	Range(const Range& f) {
+	Range( const Range& f) {
 		this->left = f.left;
 		this->right = f.right;
 	}
 
-	Range(const Range&& f) noexcept {
+	Range( Range&& f) noexcept {
 		this->left = f.left;
 		this->right = f.right;
 	}
